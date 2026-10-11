@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <linearGradient id="metal" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#D5D3CB"/><stop offset=".18" stop-color="#8C8E8D"/>
+      <stop offset=".45" stop-color="#D0CEC5"/><stop offset=".7" stop-color="#777A79"/><stop offset="1" stop-color="#B9B7AF"/>
+    </linearGradient>
+    <linearGradient id="knob" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4B4D4E"/><stop offset=".38" stop-color="#171819"/>
+      <stop offset=".75" stop-color="#080909"/><stop offset="1" stop-color="#303233"/>
+    </linearGradient>
+    <radialGradient id="rubber" cx=".38" cy=".3" r=".8">
+      <stop offset="0" stop-color="#333638"/><stop offset=".45" stop-color="#1D2021"/><stop offset="1" stop-color="#080909"/>
+    </radialGradient>
+    <radialGradient id="ledGlow">
+      <stop offset="0" stop-color="#FF8A70" stop-opacity=".85"/><stop offset=".38" stop-color="#FF2D20" stop-opacity=".45"/><stop offset="1" stop-color="#FF2D20" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+  <line x1="28.18" y1="28.18" x2="22.52" y2="22.52" stroke="#F6EBD7" stroke-width="2" stroke-linecap="round"/><line x1="36.49" y1="21.63" x2="34.40" y2="18.22" stroke="#F6EBD7" stroke-width="1.2" stroke-linecap="round"/><line x1="46.09" y1="17.20" x2="44.86" y2="13.40" stroke="#F6EBD7" stroke-width="1.2" stroke-linecap="round"/><line x1="56.47" y1="15.14" x2="56.16" y2="11.15" stroke="#F6EBD7" stroke-width="1.2" stroke-linecap="round"/><line x1="67.04" y1="15.55" x2="67.67" y2="11.60" stroke="#F6EBD7" stroke-width="1.2" stroke-linecap="round"/><line x1="77.22" y1="18.43" x2="80.28" y2="11.03" stroke="#F6EBD7" stroke-width="2" stroke-linecap="round"/><line x1="86.45" y1="23.59" x2="88.80" y2="20.36" stroke="#F6EBD7" stroke-width="1.2" stroke-linecap="round"/><line x1="94.22" y1="30.77" x2="97.26" y2="28.18" stroke="#F6EBD7" stroke-width="1.2" stroke-linecap="round"/><line x1="100.10" y1="39.57" x2="103.66" y2="37.75" stroke="#F6EBD7" stroke-width="1.2" stroke-linecap="round"/><line x1="103.76" y1="49.49" x2="107.65" y2="48.56" stroke="#F6EBD7" stroke-width="1.2" stroke-linecap="round"/><line x1="105.00" y1="60.00" x2="113.00" y2="60.00" stroke="#F6EBD7" stroke-width="2" stroke-linecap="round"/><line x1="103.76" y1="70.51" x2="107.65" y2="71.44" stroke="#F6EBD7" stroke-width="1.2" stroke-linecap="round"/><line x1="100.10" y1="80.43" x2="103.66" y2="82.25" stroke="#F6EBD7" stroke-width="1.2" stroke-linecap="round"/><line x1="94.22" y1="89.23" x2="97.26" y2="91.82" stroke="#F6EBD7" stroke-width="1.2" stroke-linecap="round"/><line x1="86.45" y1="96.41" x2="88.80" y2="99.64" stroke="#F6EBD7" stroke-width="1.2" stroke-linecap="round"/><line x1="77.22" y1="101.57" x2="80.28" y2="108.97" stroke="#F6EBD7" stroke-width="2" stroke-linecap="round"/><line x1="67.04" y1="104.45" x2="67.67" y2="108.40" stroke="#F6EBD7" stroke-width="1.2" stroke-linecap="round"/><line x1="56.47" y1="104.86" x2="56.16" y2="108.85" stroke="#F6EBD7" stroke-width="1.2" stroke-linecap="round"/><line x1="46.09" y1="102.80" x2="44.86" y2="106.60" stroke="#F6EBD7" stroke-width="1.2" stroke-linecap="round"/><line x1="36.49" y1="98.37" x2="34.40" y2="101.78" stroke="#F6EBD7" stroke-width="1.2" stroke-linecap="round"/><line x1="28.18" y1="91.82" x2="22.52" y2="97.48" stroke="#F6EBD7" stroke-width="2" stroke-linecap="round"/>
+</svg>

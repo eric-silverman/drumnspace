@@ -1,0 +1,6 @@
+build/
+JUCE
+.DS_Store
+._*
+.claude/settings.local.json
+.gstack/

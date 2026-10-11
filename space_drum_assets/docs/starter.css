@@ -1,0 +1,36 @@
+/* Space Drum UI starter tokens */
+:root {
+  --sd-navy: #0B2F4A;
+  --sd-orange: #F77A00;
+  --sd-yellow: #F2C94C;
+  --sd-cream: #F6EBD7;
+  --sd-silver: #B7B7B7;
+  --sd-black: #111111;
+  --sd-led-red: #FF2D20;
+}
+.space-drum {
+  position: relative;
+  width: 720px;
+  height: 480px;
+  color: var(--sd-cream);
+  background: var(--sd-navy);
+  font-family: "Space Grotesk", "Arial Narrow", sans-serif;
+}
+.sd-asset {
+  position: absolute;
+  display: block;
+  object-fit: contain;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+.sd-control-label {
+  font-size: 13px;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+.sd-range-label {
+  font-size: 10px;
+  font-weight: 600;
+}
