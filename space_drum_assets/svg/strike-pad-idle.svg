@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="metal" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#D5D3CB"/><stop offset=".18" stop-color="#8C8E8D"/>
+      <stop offset=".45" stop-color="#D0CEC5"/><stop offset=".7" stop-color="#777A79"/><stop offset="1" stop-color="#B9B7AF"/>
+    </linearGradient>
+    <linearGradient id="knob" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4B4D4E"/><stop offset=".38" stop-color="#171819"/>
+      <stop offset=".75" stop-color="#080909"/><stop offset="1" stop-color="#303233"/>
+    </linearGradient>
+    <radialGradient id="rubber" cx=".38" cy=".3" r=".8">
+      <stop offset="0" stop-color="#333638"/><stop offset=".45" stop-color="#1D2021"/><stop offset="1" stop-color="#080909"/>
+    </radialGradient>
+    <radialGradient id="ledGlow">
+      <stop offset="0" stop-color="#FF8A70" stop-opacity=".85"/><stop offset=".38" stop-color="#FF2D20" stop-opacity=".45"/><stop offset="1" stop-color="#FF2D20" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+  
+    
+    <ellipse cx="100" cy="104" rx="91" ry="91" fill="#050606" opacity=".5"/>
+    <circle cx="100" cy="98" r="92" fill="url(#metal)" stroke="#555958" stroke-width="3"/>
+    <circle cx="100" cy="98" r="84" fill="#090A0A" stroke="#D0CEC5" stroke-width="2"/>
+    <circle cx="100" cy="98" r="78" fill="url(#rubber)" stroke="#454849" stroke-width="2"/>
+    <circle cx="100" cy="98" r="68" fill="none" stroke="#55595A" stroke-width="1" opacity=".42"/>
+    <circle cx="100" cy="98" r="54" fill="none" stroke="#777A79" stroke-width="1" opacity=".18"/>
+    <path d="M48 57 Q75 29 105 32" fill="none" stroke="#8B8F8D" stroke-width="2" opacity=".18"/>
+    <g fill="#858887" opacity=".16">
+      <circle cx="82" cy="82" r="1.2"/><circle cx="114" cy="91" r="1"/>
+      <circle cx="96" cy="119" r="1.4"/><circle cx="124" cy="115" r=".8"/>
+      <circle cx="71" cy="105" r=".8"/><circle cx="104" cy="68" r=".8"/>
+    </g>
+    
+</svg>
